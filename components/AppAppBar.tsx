@@ -13,6 +13,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import ColorModeIconDropdown from '../shared-theme/ColorModeIconDropdown';
 import Sitemark from './SitemarkIcon';
+import { APP_BASE_URL } from '../src/config';
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   display: 'flex',
@@ -117,7 +118,7 @@ export default function AppAppBar() {
               variant="contained"
               size="small"
               component="a"
-              href="https://app.mathmentor.co.uk"
+              href={APP_BASE_URL}
               sx={{ fontFamily: 'RockThorn, Inter, sans-serif' }}
             >
               Start Now
@@ -163,7 +164,7 @@ export default function AppAppBar() {
                     variant="contained"
                     fullWidth
                     component="a"
-                    href="https://app.mathmentor.co.uk"
+                    href={APP_BASE_URL}
                     sx={{ fontFamily: 'RockThorn, Inter, sans-serif' }}
                   >
                     Start Now

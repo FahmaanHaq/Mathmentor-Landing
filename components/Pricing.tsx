@@ -10,6 +10,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
+import { APP_BASE_URL } from '../src/config';
 
 const tiers = [
   {
@@ -196,7 +197,7 @@ export default function Pricing() {
                   variant={tier.buttonVariant as 'outlined' | 'contained'}
                   color={tier.buttonColor as 'primary' | 'secondary'}
                   component="a"
-                  href="https://app.mathmentor.co.uk/register"
+                  href={`${APP_BASE_URL}/register`}
                 >
                   {tier.buttonText}
                 </Button>

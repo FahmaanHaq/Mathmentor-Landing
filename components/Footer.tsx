@@ -99,19 +99,19 @@ export default function Footer() {
           <Typography variant="body2" sx={{ fontWeight: 'medium', fontFamily: 'RockThorn, Inter, sans-serif', fontSize: '1.1rem' }}>
             Pages
           </Typography>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color="text.secondary" variant="body2" href="#features">
             Features
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color="text.secondary" variant="body2" href="#testimonials">
             Testimonials
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color="text.secondary" variant="body2" href="#highlights">
             Highlights
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color="text.secondary" variant="body2" href="#pricing">
             Pricing
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color="text.secondary" variant="body2" href="#faq">
             FAQs
           </Link>
         </Box>
