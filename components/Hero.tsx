@@ -8,6 +8,7 @@ import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import visuallyHidden from '@mui/utils/visuallyHidden';
 import { styled } from '@mui/material/styles';
+import { APP_BASE_URL } from '../src/config';
 
 const StyledBox = styled('div')(({ theme }) => ({
   alignSelf: 'center',
@@ -133,7 +134,7 @@ export default function Hero() {
           >
             <Button
               component="a"
-              href="https://app.mathmentor.co.uk"
+              href={APP_BASE_URL}
               sx={{
                 backgroundImage: 'url(/start_now_before.png)',
                 backgroundSize: 'contain',
